@@ -1,15 +1,16 @@
 # MVCwithMongoDBCRUD
-https://www.youtube.com/watch?v=_LMWJNekQGU&amp;t=1467s
+
 
 Exercise -
 For better underdtanding watch youtube vedio
-https://www.youtube.com/watch?v=_LMWJNekQGU&t=1467s
-
+<html>
+https:/ /www .youtube .com/ watch?v= _LMWJNekQGU&t = 1467s
+</html>
 solution
 prequesite- 
-download mongodb(version any abobe to 3.0)
-download mongodbbooster(no sql booster)(above version 5)
-downlaod visual studia 2019
+/download\-mongodb(version any abobe to 3.0)
+/download\-mongodbbooster(no sql booster)(above version 5)
+/downlaod\-visual studia 2019
 
 -----------------------------------------------------------------------------------------------------------------------#1
 how to create database and configuration for crud operation ?
@@ -39,10 +40,13 @@ one script file will genrate and then change "username" and "pwd"& role ""as "wh
 username = "manish"
 pwd = "gautam"
 role = "readWrite"
+
 -----------------------------------------------------------------------------------------------------------------------#1
 
 
 -----------------------------------------------------------------------------------------------------------------------#2
+
+
 step-1
 I have created database in mongodb.Some more information already in #1 has been shared some important are here describing
 DatabaseName - "ProductManagementdb"
@@ -80,3 +84,8 @@ step-8
 create veiw according to need , how to create view > go to ProductController.cs file and click on index right click on index and then option will come for add veiw and add according to use.
 
 -----------------------------------------------------------------------------------------------------------------------#2
+
+WrittenBy-Darkness
+email-manishgautam120@gmail.com
+
+
