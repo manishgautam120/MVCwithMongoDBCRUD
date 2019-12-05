@@ -1,25 +1,57 @@
 # MVCwithMongoDBCRUD
 https://www.youtube.com/watch?v=_LMWJNekQGU&amp;t=1467s
 
-
-
-
+Exercise -
 For better underdtanding watch youtube vedio
 https://www.youtube.com/watch?v=_LMWJNekQGU&t=1467s
 
+solution
+prequesite- 
+download mongodb(version any abobe to 3.0)
+download mongodbbooster(no sql booster)(above version 5)
+downlaod visual studia 2019
 
-prequesite- download mongodb into your system
-download mongodb booster
+-----------------------------------------------------------------------------------------------------------------------#1
+how to create database and configuration for crud operation ?
+first downlaod mongobooster and then connect to the mongodb
 
+Q-how to create database?
 step-1
-I have created database in mongodb.Some more information of structure
+create database name (i taken productmanagementdb)
+
+Q-how to insert raw data into instant created collection (collection create and sampledata insertion both will be on same time) 
+step-2
+In previous step databse has been created on your left panel and click on database (productmanagementdb) we will insert some test(sample-data) for veiwing purpose
+
+On top right panel you can see "Test Data"  option click on this for inserting data(raw sample-data) 
+>one panel will popup(test data generator) 
+>Insert data for 3 only (name username email) for other close sign is there use that
+> on the same panel below choose database "productmanagementdb" and in collection "userinfo" and Doc count "100"
+collection has been created 1M> document has been inserted. i aborted script in between ,if time is taking so much you can do same as well
+for security purpose you can create user (i have created user )
+
+Q-how to create user
+step-3
+right click on database name (productmanagementdb) and "User and Role"> "Add User">add user 
+
+one script file will genrate and then change "username" and "pwd"& role ""as "whatever(but this username have to put in to project web.config file)" 
+
+username = "manish"
+pwd = "gautam"
+role = "readWrite"
+-----------------------------------------------------------------------------------------------------------------------#1
+
+
+-----------------------------------------------------------------------------------------------------------------------#2
+step-1
+I have created database in mongodb.Some more information already in #1 has been shared some important are here describing
 DatabaseName - "ProductManagementdb"
 CollectionName - "product"
 
 
 
 step-2
-created user
+created user for security i provided credential
 user-"manish"
 pwd-"gautam"
 
@@ -46,3 +78,5 @@ All logic for insert ,update ,delete will write here write logic according to ne
 
 step-8
 create veiw according to need , how to create view > go to ProductController.cs file and click on index right click on index and then option will come for add veiw and add according to use.
+
+-----------------------------------------------------------------------------------------------------------------------#2
